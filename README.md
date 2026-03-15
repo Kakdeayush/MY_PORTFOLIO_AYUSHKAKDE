@@ -44,7 +44,7 @@ https://your-portfolio-link.vercel.app
 
 ### 📜 Certificates Section
 
-![Certificates Section](ADD_CERTIFICATE_SECTION_IMAGE_LINK_HERE)
+![Certificates Section](src/assets/certificate-section.png)
 
 ---
 
