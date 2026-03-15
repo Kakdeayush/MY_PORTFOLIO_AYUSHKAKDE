@@ -1,4 +1,5 @@
 import React from 'react';
+import ecommerceImg from "../assets/ecommerce-web.png";
 import './Projects.css';
 
 const projectsData = [
@@ -6,7 +7,7 @@ const projectsData = [
         id: 1,
         title: 'E-Commerce Fraud Detection',
         description: 'A machine learning and Java Spring Boot application that detects fraudulent transactions in real-time, preventing financial losses using random forest algorithms.',
-        image: 'https://images.unsplash.com/photo-1555421689-d68471e189f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        image:ecommerceImg,
         tags: ['Java', 'Spring Boot', 'MySQL', 'Machine Learning'],
         github: 'https://github.com/Kakdeayush/E-COMMERCE-FRAUD-DETECTION-WEB'
     },
