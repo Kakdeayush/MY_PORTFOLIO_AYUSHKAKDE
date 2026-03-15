@@ -1,0 +1,21 @@
+.section-divider-container {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.divider-line {
+    flex-grow: 1;
+    height: 4px;
+    background: repeating-linear-gradient(90deg, transparent, transparent 10px, var(--text-dark) 10px, var(--text-dark) 20px);
+    max-width: 200px;
+    opacity: 0.5;
+}
+
+.divider-icon {
+    font-size: 2rem;
+    background: var(--primary-yellow);
+    animation: pulse-glow 3s infinite alternate;
+}
