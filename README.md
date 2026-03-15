@@ -25,19 +25,14 @@ https://your-portfolio-link.vercel.app
 
 ### 🏠 Hero Section
 
-![Hero Section](ADD_HERO_SECTION_IMAGE_LINK_HERE)
+![Hero Section](src/assets/hero-section-portfolio.png)
 
 ---
 
-### 👨‍💻 About Section
-
-![About Section](ADD_ABOUT_SECTION_IMAGE_LINK_HERE)
-
----
 
 ### 🧰 Toolkit / Skills Section
 
-![Toolkit Section](ADD_TOOLKIT_SECTION_IMAGE_LINK_HERE)
+![Toolkit Section](src/assets/toolkit-section.png)
 
 ---
 
