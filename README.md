@@ -38,7 +38,7 @@ https://your-portfolio-link.vercel.app
 
 ### 💼 Projects Section
 
-![Projects Section](ADD_PROJECT_SECTION_IMAGE_LINK_HERE)
+![Projects Section](src/assets/project-section.png)
 
 ---
 
