@@ -50,7 +50,7 @@ https://your-portfolio-link.vercel.app
 
 ### 📩 Contact Section
 
-![Contact Section](ADD_CONTACT_SECTION_IMAGE_LINK_HERE)
+![Contact Section](src/assets/contact-us-section.png)
 
 ---
 
