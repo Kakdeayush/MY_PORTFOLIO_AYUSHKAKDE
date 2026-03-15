@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@400;700;900&display=swap');
+
 :root {
   /* Graphic Designer Paper Cutout Theme */
   --primary-orange: #FF5722;
@@ -17,7 +19,6 @@
   --transition-bounce: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@400;700;900&display=swap');
 
 * {
   margin: 0;
