@@ -13,12 +13,6 @@ This portfolio showcases my projects, skills, certifications, and provides a way
 ADD_YOUR_LIVE_WEBSITE_LINK_HERE
 ```
 
-Example:
-
-```
-https://your-portfolio-link.vercel.app
-```
-
 ---
 
 # 📸 Website Preview
