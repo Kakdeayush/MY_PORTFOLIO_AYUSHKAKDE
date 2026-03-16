@@ -111,7 +111,7 @@ portfolio
 Clone the repository
 
 ```
-git clone ADD_YOUR_GITHUB_REPO_LINK_HERE
+git clone https://github.com/Kakdeayush/MY_PORTFOLIO_AYUSHKAKDE
 ```
 
 Navigate into the project folder
