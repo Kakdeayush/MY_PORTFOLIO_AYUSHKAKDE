@@ -147,7 +147,8 @@ If you want to collaborate or discuss opportunities, feel free to contact me.
 📩 Email
 
 ```
-ADD_YOUR_EMAIL_HERE
+kakdeayush376@gmail.com
+
 ```
 
 ---
