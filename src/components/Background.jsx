@@ -2,17 +2,16 @@ import React from 'react';
 import './Background.css';
 import paperBg from '../assets/crumpled-paper-bg.png';
 
-// import your images
-import circleImg from '../assets/luffy.png';
-import crossImg from '../assets/computer.png';
-import starImg from '../assets/birds.png';
-import zigzagImg from '../assets/robot1.png';
-import arrowImg from '../assets/semiconductor1.png';
+import mouseImg from '../assets/doodle-imgs/mouse.png';
+import spidermanImg from '../assets/doodle-imgs/spiderman.png';
+import computerImg from '../assets/doodle-imgs/computer.png';
+import courageImg from '../assets/doodle-imgs/courage-dog.png';
+import semiconductorImg from '../assets/doodle-imgs/semiconductor1.png';
 
-import laptopImg from '../assets/certificate.png';
-import cloudImg from '../assets/cloud.png';
-import aiImg from '../assets/boy.png';
-import dbImg from '../assets/mouse.png';
+import certificateImg from '../assets/doodle-imgs/certificate.png';
+import minionsImg from '../assets/doodle-imgs/minions.png';
+import birdsImg from '../assets/doodle-imgs/birds.png';
+import luffyImg from '../assets/doodle-imgs/luffy1.png';
 
 
 const Background = () => {
@@ -23,50 +22,50 @@ const Background = () => {
 
       {/* Replace doodles with images */}
       <div className="doodle doodle-circle">
-        <img src={circleImg} alt="" />
+        <img src={mouseImg} alt="" />
       </div>
 
       <div className="doodle doodle-circle-2">
-        <img src={circleImg} alt="" />
+        <img src={mouseImg} alt="" />
       </div>
 
       <div className="doodle doodle-cross">
-        <img src={crossImg} alt="" />
+        <img src={spidermanImg} alt="" />
       </div>
 
       <div className="doodle doodle-cross-2">
-        <img src={crossImg} alt="" />
+        <img src={spidermanImg} alt="" />
       </div>
 
       <div className="doodle doodle-star">
-        <img src={starImg} alt="" />
+        <img src={computerImg} alt="" />
       </div>
 
       <div className="doodle doodle-star-2">
-        <img src={starImg} alt="" />
+        <img src={computerImg} alt="" />
       </div>
 
       <div className="doodle doodle-zigzag">
-        <img src={zigzagImg} alt="" />
+        <img src={courageImg} alt="" />
       </div>
 
       <div className="doodle doodle-arrow">
-        <img src={arrowImg} alt="" />
+        <img src={semiconductorImg} alt="" />
       </div>
 <div className="doodle doodle-extra-1">
-  <img src={laptopImg} alt="" />
+  <img src={certificateImg} alt="" />
 </div>
 
 <div className="doodle doodle-extra-2">
-  <img src={cloudImg} alt="" />
+  <img src={minionsImg} alt="" />
 </div>
 
 <div className="doodle doodle-extra-3">
-  <img src={aiImg} alt="" />
+  <img src={birdsImg} alt="" />
 </div>
 
 <div className="doodle doodle-extra-4">
-  <img src={dbImg} alt="" />
+  <img src={luffyImg} alt="" />
 </div>
       <div className="paper-overlay"></div>
     </div>
