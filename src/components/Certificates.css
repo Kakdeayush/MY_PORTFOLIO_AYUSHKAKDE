@@ -111,7 +111,24 @@
     margin-top: auto;
     transform: rotate(-3deg);
 }
+.download-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: white;
+    border: 3px solid var(--text-dark);
+    border-radius: 50%;
+    padding: 6px 10px;
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.9);
+    transition: 0.2s;
+}
 
+.download-btn:hover {
+    transform: scale(1.1) rotate(10deg);
+    background: var(--primary-yellow);
+}
 @media (max-width: 768px) {
     .certificates-container-horizontal {
         flex-direction: column;

@@ -7,51 +7,57 @@ const certificatesData = [
         title: 'HTML 5,Python,Flask Framework All In One Complete Course',
         issuer: 'Udemy',
         date: '2025',
-        icon: '🧪'
+        icon: '🧪',
+        file: '/certificates/udemy-python.pdf'
     },
     {
         id: 2,
         title: 'Basic App Devlopment Course With Java in Hindi',
         issuer: 'Udemy',
         date: '2025',
-        icon: '☕'
+        icon: '☕',
+        file: '/certificates/udemy-java.pdf'
     },
     {
         id: 3,
         title: 'SQL and Relational Databases 101',
         issuer: 'IBM',
         date: '2026',
-        icon: '🗄️'
+        icon: '🗄️',
+        file: '/certificates/IBM-SQL-CERTIFICATE.pdf'
     },
     {
         id: 4,
         title: 'SQL (Basic)',
         issuer: 'HackerRank',
         date: '2026',
-        icon: '🗄️'
+        icon: '🗄️',
+        file: '/certificates/sql_basic-certificate.pdf'
     },
     {
         id: 5,
         title: 'Introduction to Prompt Engineering with GitHub Copilot',
         issuer: 'SimpleLearn',
         date: '2026',
-        icon: '🤖'
+        icon: '🤖',
+        file: '/certificates/microsoft-certficate.pdf'
     },
-     {
+    {
         id: 6,
         title: 'Nestlé E-learning Program',
         issuer: 'Nestle',
         date: '2026',
-        icon: '🎓'
+        icon: '🎓',
+        file: '/certificates/nestle.pdf'
     },
     {
         id: 7,
         title: 'GenAI Powered Data Analytics Job Simulation',
         issuer: 'Tata',
         date: '2025',
-        icon: '📊'
-    },
-    
+        icon: '📊',
+        file: '/certificates/data-anyaltics-simulation.pdf'
+    }
 ];
 
 const Certificates = () => {
@@ -86,14 +92,27 @@ const Certificates = () => {
                 <div className="certificates-container-horizontal" ref={scrollRef}>
                     {certificatesData.map(cert => (
                         <div className="certificate-card" key={cert.id}>
+                            
                             <div className="cert-icon-wrapper">
                                 <span className="cert-icon">{cert.icon}</span>
                             </div>
+
                             <div className="cert-content">
                                 <h3 className="cert-title">{cert.title}</h3>
                                 <p className="cert-issuer">{cert.issuer}</p>
                                 <span className="cert-date">{cert.date}</span>
                             </div>
+
+                            {/* ✅ Download Button */}
+                            <a 
+                                href={cert.file} 
+                                download 
+                                className="download-btn"
+                                onClick={(e) => e.stopPropagation()}
+                            >
+                                ⬇️
+                            </a>
+
                         </div>
                     ))}
                 </div>
