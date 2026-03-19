@@ -4,32 +4,54 @@ import './Certificates.css';
 const certificatesData = [
     {
         id: 1,
-        title: 'Java Full Stack Developer Certification',
-        issuer: 'Coursera / IBM',
+        title: 'HTML 5,Python,Flask Framework All In One Complete Course',
+        issuer: 'Udemy',
         date: '2025',
-        icon: '🎓'
+        icon: '🧪'
     },
     {
         id: 2,
-        title: 'React - The Complete Guide (incl Hooks, React Router, Redux)',
+        title: 'Basic App Devlopment Course With Java in Hindi',
         issuer: 'Udemy',
-        date: '2024',
-        icon: '⚛️'
+        date: '2025',
+        icon: '☕'
     },
     {
         id: 3,
-        title: 'Spring Boot 3, Spring 6 & Hibernate for Beginners',
-        issuer: 'Udemy',
-        date: '2025',
-        icon: '🍃'
+        title: 'SQL and Relational Databases 101',
+        issuer: 'IBM',
+        date: '2026',
+        icon: '🗄️'
     },
     {
         id: 4,
-        title: 'SQL and Relational Databases 101',
-        issuer: 'Coursera',
-        date: '2023',
+        title: 'SQL (Basic)',
+        issuer: 'HackerRank',
+        date: '2026',
         icon: '🗄️'
-    }
+    },
+    {
+        id: 5,
+        title: 'Introduction to Prompt Engineering with GitHub Copilot',
+        issuer: 'SimpleLearn',
+        date: '2026',
+        icon: '🤖'
+    },
+     {
+        id: 6,
+        title: 'Nestlé E-learning Program',
+        issuer: 'Nestle',
+        date: '2026',
+        icon: '🎓'
+    },
+    {
+        id: 7,
+        title: 'GenAI Powered Data Analytics Job Simulation',
+        issuer: 'Tata',
+        date: '2025',
+        icon: '📊'
+    },
+    
 ];
 
 const Certificates = () => {
