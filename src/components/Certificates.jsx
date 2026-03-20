@@ -57,6 +57,14 @@ const certificatesData = [
         date: '2025',
         icon: '📊',
         file: '/certificates/data-anyaltics-simulation.pdf'
+    },
+    {
+        id: 8,
+        title: 'Computer Hardware Basics',
+        issuer: 'Cisco',
+        date: '2025',
+        icon: '🛠️',
+        file: '/certificates/comuter-hardware-basics-cisco.pdf'
     }
 ];
 
