@@ -4,14 +4,6 @@ import './Certificates.css';
 const certificatesData = [
     {
         id: 1,
-        title: 'HTML 5,Python,Flask Framework All In One Complete Course',
-        issuer: 'Udemy',
-        date: '2025',
-        icon: '🧪',
-        file: '/certificates/udemy-python.pdf'
-    },
-    {
-        id: 2,
         title: 'Basic App Devlopment Course With Java in Hindi',
         issuer: 'Udemy',
         date: '2025',
@@ -19,7 +11,7 @@ const certificatesData = [
         file: '/certificates/udemy-java.pdf'
     },
     {
-        id: 3,
+        id: 2,
         title: 'SQL and Relational Databases 101',
         issuer: 'IBM',
         date: '2026',
@@ -27,12 +19,20 @@ const certificatesData = [
         file: '/certificates/IBM-SQL-CERTIFICATE.pdf'
     },
     {
-        id: 4,
+        id: 3,
         title: 'SQL (Basic)',
         issuer: 'HackerRank',
         date: '2026',
         icon: '🗄️',
         file: '/certificates/sql_basic-certificate.pdf'
+    },
+     {
+        id: 4,
+        title: 'Computer Hardware Basics',
+        issuer: 'Cisco',
+        date: '2025',
+        icon: '🛠️',
+        file: '/certificates/comuter-hardware-basics-cisco.pdf'
     },
     {
         id: 5,
@@ -60,12 +60,12 @@ const certificatesData = [
     },
     {
         id: 8,
-        title: 'Computer Hardware Basics',
-        issuer: 'Cisco',
+        title: 'HTML 5,Python,Flask Framework All In One Complete Course',
+        issuer: 'Udemy',
         date: '2025',
-        icon: '🛠️',
-        file: '/certificates/comuter-hardware-basics-cisco.pdf'
-    }
+        icon: '🧪',
+        file: '/certificates/udemy-python.pdf'
+    },
 ];
 
 const Certificates = () => {
