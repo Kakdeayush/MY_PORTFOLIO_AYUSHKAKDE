@@ -34,16 +34,25 @@ const certificatesData = [
         icon: '🛠️',
         file: '/certificates/comuter-hardware-basics-cisco.pdf'
     },
-    {
+
+     {
         id: 5,
+        title: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate',
+        issuer: 'Oracle',
+        date: '2026',
+        icon: '🤖',
+        file: '/certificates/orcale-certificate.pdf'
+    },
+    {
+        id: 6,
         title: 'Introduction to Prompt Engineering with GitHub Copilot',
         issuer: 'SimpleLearn',
         date: '2026',
         icon: '🤖',
-        file: '/certificates/microsoft-certficate.pdf'
+        file: '/certificates/microsoft-certificate.pdf'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Nestlé E-learning Program',
         issuer: 'Nestle',
         date: '2026',
@@ -51,7 +60,7 @@ const certificatesData = [
         file: '/certificates/nestle.pdf'
     },
     {
-        id: 7,
+        id: 8,
         title: 'GenAI Powered Data Analytics Job Simulation',
         issuer: 'Tata',
         date: '2025',
@@ -59,7 +68,7 @@ const certificatesData = [
         file: '/certificates/data-anyaltics-simulation.pdf'
     },
     {
-        id: 8,
+        id: 9,
         title: 'HTML 5,Python,Flask Framework All In One Complete Course',
         issuer: 'Udemy',
         date: '2025',
