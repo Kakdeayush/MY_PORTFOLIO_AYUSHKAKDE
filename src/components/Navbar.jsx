@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
             <div className="nav-container">
                 <div className="logo">
-                    <a href="#hero" className="gradient-text">Ayush<span style={{ color: 'var(--text-dark)' }}>.dev</span></a>
+                    <a href="#hero" className="gradient-text">AyushKcodes</a>
                 </div>
 
                 <div className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
