@@ -29,7 +29,7 @@ const projectsData = [
         description: 'Developed an IoT-driven solar energy harvesting solution that enables real-time monitoring, energy optimization, and sustainable power management through connected sensors and cloud integration.',
         image: solarphoto,
         tags: ['IOT', 'Ardiuno', 'Emmeded C', 'Monitorization'],
-        github: 'https://github.com'
+        github: 'https://github.com/Kakdeayush/SOLAR-ENERGY-HARVESTING-SYSTEM-IOT'
     }
 ];
 
