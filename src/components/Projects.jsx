@@ -28,7 +28,7 @@ const projectsData = [
         title: ' SOLAR-ENERGY-HARVESTING-SYSTEM-IOT',
         description: 'Developed an IoT-driven solar energy harvesting solution that enables real-time monitoring, energy optimization, and sustainable power management through connected sensors and cloud integration.',
         image: solarphoto,
-        tags: ['Java', 'Spring Cloud', 'Docker', 'PostgreSQL'],
+        tags: ['IOT', 'Ardiuno', 'Emmeded C', 'Monitorization'],
         github: 'https://github.com'
     }
 ];
