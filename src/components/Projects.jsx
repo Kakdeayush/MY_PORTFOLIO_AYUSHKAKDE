@@ -25,7 +25,7 @@ const projectsData = [
     {
         id: 3,
         title: ' SOLAR-ENERGY-HARVESTING-SYSTEM-IOT',
-        description: 'Scalable backend architecture using Spring Cloud to manage user authentication, product catalogs, and order processing across multiple microservices.',
+        description: 'Developed an IoT-driven solar energy harvesting solution that enables real-time monitoring, energy optimization, and sustainable power management through connected sensors and cloud integration.',
         image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         tags: ['Java', 'Spring Cloud', 'Docker', 'PostgreSQL'],
         github: 'https://github.com'
