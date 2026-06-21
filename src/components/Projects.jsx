@@ -3,6 +3,7 @@ import ecommerceImg from "../assets/ecommerce-web.png";
 import banner2 from "../assets/banner2.png";
 import './Projects.css';
 import solarphoto from "../assets/solar energy harvesating system.png"
+import securephoto from "../assets/secure file share system dashboard.png"
 
 const projectsData = [
   
@@ -23,8 +24,16 @@ const projectsData = [
         tags: ['Java', 'Spring Boot', 'MySQL', 'Machine Learning'],
         github: 'https://github.com/Kakdeayush/E-COMMERCE-FRAUD-DETECTION-WEB'
     },
-    {
+      {
         id: 3,
+        title: ' SECURE FILE SHARING SYSTEM',
+        description: 'Built a secure file sharing application with authentication, access control, and document management features using Java, Spring Boot, React.js, and MySQL.',
+        image: securephoto,
+        tags: ['JAVA', 'React', 'Spring Boot', 'MYSQL'],
+        github: 'https://github.com/Kakdeayush/SECURE-FILE-SHARING-SYSTEM'
+    },
+    {
+        id:4,
         title: ' SOLAR-ENERGY-HARVESTING-SYSTEM-IOT',
         description: 'Developed an IoT-driven solar energy harvesting solution that enables real-time monitoring, energy optimization, and sustainable power management through connected sensors and cloud integration.',
         image: solarphoto,
