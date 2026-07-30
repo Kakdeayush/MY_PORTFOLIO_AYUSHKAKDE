@@ -5,6 +5,7 @@ const skillsData = [
     { name: 'Java', icon: '☕', level: '90%' },
     { name: 'Spring Boot', icon: '🍃', level: '85%' },
     { name: 'React', icon: '⚛️', level: '80%' },
+    { name: 'Excel', icon: '📊', level: '90%' },
     { name: 'SQL', icon: '🗄️', level: '85%' },
     { name: 'Git & GitHub', icon: '🐙', level: '95%' },
     { name: 'HTML/CSS/JS', icon: '🌐', level: '90%' },
