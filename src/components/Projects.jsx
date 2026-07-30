@@ -4,11 +4,20 @@ import banner2 from "../assets/banner2.png";
 import './Projects.css';
 import solarphoto from "../assets/solar energy harvesating system.png"
 import securephoto from "../assets/secure file share system dashboard.png"
+import dash from "../assets/Dashboard.png"
 
 const projectsData = [
   
-    {
+     {
         id: 1,
+        title: 'Inventory-Mangement-System ',
+        description: 'Developed an Excel-based Inventory Management System to track stock levels, monitor inventory movement, and visualize key inventory metrics using interactive dashboards and automated Excel features.',
+        image:dash,
+        tags: ['Microsoft Excel', 'Pivot Tables', 'Data Validation', 'Slicers'],
+        github: 'https://github.com/Kakdeayush/INVENTORY--MANGEMENT--SYSTEM'
+    },
+    {
+        id: 2,
         title: 'Community Civic Issue Reporting Website ',
         description: 'Developed a civic issue reporting website using Java, Spring Boot, React.js, and MySQL to streamline complaint registration and resolution tracking.',
         image:banner2,
@@ -17,7 +26,7 @@ const projectsData = [
     },
     
     {
-        id: 2,
+        id: 3,
         title: 'E-Commerce Fraud Detection',
         description: 'A machine learning and Java Spring Boot application that detects fraudulent transactions in real-time, preventing financial losses using random forest algorithms.',
         image:ecommerceImg,
@@ -25,7 +34,7 @@ const projectsData = [
         github: 'https://github.com/Kakdeayush/E-COMMERCE-FRAUD-DETECTION-WEB'
     },
       {
-        id: 3,
+        id: 4,
         title: ' SECURE FILE SHARING SYSTEM',
         description: 'Built a secure file sharing application with authentication, access control, and document management features using Java, Spring Boot, React.js, and MySQL.',
         image: securephoto,
@@ -33,7 +42,7 @@ const projectsData = [
         github: 'https://github.com/Kakdeayush/SECURE-FILE-SHARING-SYSTEM'
     },
     {
-        id:4,
+        id:5,
         title: ' SOLAR-ENERGY-HARVESTING-SYSTEM-IOT',
         description: 'Developed an IoT-driven solar energy harvesting solution that enables real-time monitoring, energy optimization, and sustainable power management through connected sensors and cloud integration.',
         image: solarphoto,
